@@ -1,0 +1,20 @@
+{
+  "name": "ragts",
+  "version": "1.0.0",
+  "description": "**RAG.ts** is a lightweight and advanced document retrieval library that enables smart document retrieval for **Retrieval-Augmented Generation (RAG)** use cases. It provides advanced techniques like TF-IDF scoring, fuzzy matching, and contextual weighting to retrieve relevant documents based on user queries.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "example": "ts-node example.ts"
+  },
+  "keywords": [],
+  "author": "Aymen Jarouih",
+  "license": "ISC",
+  "devDependencies": {
+    "fast-levenshtein": "^3.0.0"
+  }
+}
