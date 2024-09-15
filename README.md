@@ -14,16 +14,15 @@
 
 ```bash
 npm install
-
+```
 
 ## Build
 
 ```bash
 npm run build
-
+```
 ## Example
 
 ```bash
 node ./dist/example.js
-
-# basic-rag-ts
+```
